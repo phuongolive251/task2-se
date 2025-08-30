@@ -31,7 +31,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: react-build
-          path: ./build
+          path: ./builder
 
   deploy:
     runs-on: ubuntu-latest
