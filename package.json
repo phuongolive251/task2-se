@@ -12,9 +12,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",                     // build client only
-    "preview": "vite preview --port 8080",     // local preview of /dist
-    "start": "vite",                           // for local dev; not used on Pages
+    "build": "vite build",                     
+    "preview": "vite preview --port 8080",    
+    "start": "vite",                           
     "test": "vitest --run",
     "format.fix": "prettier --write .",
     "typecheck": "tsc"
