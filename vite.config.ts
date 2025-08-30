@@ -13,6 +13,7 @@ export default defineConfig(({ mode }) => ({
       deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**", "server/**"],
     },
   },
+  base: '/task2-se/',
   build: {
     outDir: "dist",
   },
